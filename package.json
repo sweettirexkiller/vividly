@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "test:coverage": "jest --watchAll --verbose --coverage",
     "test": "jest --watchAll --verbose"
+  },
+  "engines": {
+    "node":"9.5.0"
   },
   "keywords": [],
   "author": "",
