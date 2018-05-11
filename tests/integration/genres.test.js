@@ -6,7 +6,7 @@ let server;
 
 describe('/api/genres', () => {
     beforeEach(async () => {
-        server = require('../../index');
+        server = await require('../../index');
     });
     afterEach(async () => {
         await Genre.remove({});
