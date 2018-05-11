@@ -48,6 +48,4 @@ describe('auth middleware', ()=>{
 
         expect(res.status).toBe(200);
     });
-
-
 });
